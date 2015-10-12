@@ -1,0 +1,38 @@
+{
+  "name": "project-pika",
+  "version": "1.0.0",
+  "description": "A multi use desktop app while I'm coding",
+  "main": "main.js",
+  "scripts": {
+    "webpack": "webpack-dev-server --inline --hot --colors --content-base 'dist' --port 3000",
+    "electron": "electron ."
+  },
+  "keywords": [
+    "desktop",
+    "control center",
+    "electron"
+  ],
+  "author": "Mika Kalathil <mikakalathil@gmail.com>",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "babel-runtime": "^5.8.25",
+    "css-loader": "^0.19.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "jade": "^1.11.0",
+    "jade-loader": "webpack/jade-loader#d9caf44",
+    "postcss-loader": "^0.6.0",
+    "style-loader": "^0.12.4",
+    "ts-loader": "^0.5.5",
+    "typescript": "^1.6.2",
+    "webpack": "^1.12.2",
+    "html-webpack-plugin": "ampedandwired/html-webpack-plugin#29e0a1b1449b40b7b5b0b0434294a1fc59ec3fd5",
+    "webpack-dev-server": "^1.12.0",
+    "webpack-target-electron-renderer": "^0.1.0"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.40",
+    "electron-prebuilt": "^0.33.7",
+    "reflect-metadata": "^0.1.2"
+  }
+}
